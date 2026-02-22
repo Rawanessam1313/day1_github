@@ -1,0 +1,161 @@
+
+
+.image {
+    width: 100%;
+    height: 300px;       
+    background-image: url(/images/girl.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container1 {
+    position: relative;   
+    width: 100%;
+    max-width: 800px;    
+    margin: 0 auto;
+}
+.navbar {
+    position: absolute;  
+    top: 10px;    
+    left: 50%;  
+    width: 40%;     
+    transform: translateX(-50%);        
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+#flex
+{
+    float: left;
+    color: #460048;
+}
+.container2{
+    padding: 3%;
+}
+.textboxcontainer1 {
+    position: absolute;  
+    bottom: 60%;    
+    left: 50%;  
+    width: 20%;     
+    transform: translateX(-50%);        
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: #ffffff;
+}
+button {
+    background-color: rgba(253, 251, 249, 0.878);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    
+    cursor: pointer;
+}
+.container2 {
+     position: relative;
+    width: 100%;
+    min-height: 400px;
+    background-color: #f0f0f0;
+
+   
+}
+.textboxcontainer2-top {
+     
+    position: absolute;  
+    top: 1%;   
+    text-align: center;
+    left: 45%;
+    width: 20%;     
+    transform: translate( -50%);   
+    padding: 10px;
+    
+    
+    color: #000000;
+}
+.textboxcontainer2-bottom {
+     
+    position: absolute;  
+    bottom: 1%;   
+    text-align: center;
+    left: 45%;
+    width: 20%;     
+    transform: translate( -50%);   
+    padding: 10px;
+    color: #000000;
+}
+.container2-boxes {
+    position: absolute;  
+    top: 50%;   
+    text-align: center;
+    left: 48%;
+    width: 80%;     
+    transform: translate( -50%, -50%);   
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.div
+{
+   
+  float: left;
+  width: calc(20% - 40px);     
+  height: 100px;
+  padding: 20px;
+  margin: 10px ;
+  background: #5392ffc6;
+  line-height: 100px;
+    text-align: center;
+}
+#id1{
+    background: #6591f0c6;
+}
+#id2{
+    background: #676666c6;
+}
+#id3{
+    background: #ffcff2c6;
+}
+#id4{
+    background: #8c4be286;
+}
+.clear
+{
+    clear: both ;
+}
+.container3 {
+    position: relative;
+    width: 80%;
+    min-height: 400px;
+    overflow: hidden;
+    padding: 20px 0;
+    margin: 20px 0;
+    
+    
+}
+
+.card {
+    justify-content: center;
+    float: right;
+    width: 200px;    
+    height: 150px;  
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.card img {
+    width: 100%;      
+    height: 100%;    
+    display: block;
+
+}
+
